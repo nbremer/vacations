@@ -1,0 +1,228 @@
+.title {
+	font-family: 'Slabo 27px', serif;
+	font-size: 50px;
+	fill: #d6d6d6;
+	/*margin-left: 100px;*/
+}
+
+.intro-text {
+	text-anchor: start;
+	font-family: 'Vollkorn', serif;
+	font-size: 12px;
+	fill: #4c4c4c;
+}
+
+#credit {
+	margin-top: 0px;
+	margin-bottom: 5px;
+	font-size: 16px;
+}
+#note {
+	margin-top: 0px;
+	margin-bottom: 30px;
+	font-size: 14px;
+}
+
+#note, #credit {
+	margin-left: 20px;
+	font-family: 'Slabo 27px', serif;
+	color: #717171;
+}
+a, a:link, a:visited, a:active {
+    color: #10A66E;
+    border-bottom: 1px dotted rgba(23, 165, 84, .5);
+    text-decoration: none;
+}
+
+/* --- Legend --- */
+.legend-title {
+	font-family: 'Slabo 27px', serif;
+	font-size: 30px;
+	fill: #d6d6d6;
+}
+
+.legend-sub-title,
+.annotation-sub-title {
+	font-family: 'Slabo 27px', serif;
+	font-size: 20px;
+	fill: #1d1d1d;
+}
+
+.legend-text {
+	text-anchor: start;
+	font-family: 'Vollkorn', serif;
+	font-size: 11px;
+	fill: #4c4c4c;
+}
+
+.legendWrapper .pattern-line {
+	fill: none;
+	stroke: #545454;
+}
+.legendWrapper .sun-circle {
+	fill: none;
+	stroke: #545454;
+}
+
+/* --- Axes labels --- */
+.year-title {
+	text-anchor: end;
+	font-family: 'Slabo 27px', serif;
+	font-size: 30px;
+	fill: #d6d6d6;
+}
+
+.month-title {
+	text-anchor: middle;
+	font-family: 'Slabo 27px', serif;
+	font-size: 10px;
+	fill: #4c4c4c;
+}
+
+/* --- Annotations --- */
+.vacation-location-label {
+	text-anchor: middle;
+	font-family: 'Vollkorn', serif;
+	font-size: 9px;
+	fill: #969696;
+}
+
+.annotation-text {
+	text-anchor: middle;
+	font-family: 'Vollkorn', serif;
+	font-size: 12px;
+	fill: #4c4c4c;
+}
+.annotation-line {
+	fill: none;
+	stroke: #333333;
+	stroke-linecap: round;
+	stroke-width: 1.5px;
+}
+.annotation-sf-rect {
+	fill: #1D7EB0;
+	opacity: 0.5;
+}
+.annotation-golden-gate-line {
+	stroke: #1D7EB0;
+	stroke-linecap: round;
+	fill: none;
+}
+
+/* --- Month dividers --- */
+.month-line {
+	fill: none;
+	stroke: #cccccc;
+	stroke-linecap: round;
+	stroke-width: 2px;
+	/*stroke-dasharray: 8,4;*/
+	/*mix-blend-mode: multiply;*/
+}
+
+.inbetween-month-line {
+	fill: none;
+	stroke: #ececec;
+	stroke-width: 2px;
+	stroke-linecap: round;
+	/*stroke-dasharray: 8,4;*/
+	opacity: 0.7;
+	/*mix-blend-mode: multiply;*/
+}
+
+.vacationYearWrapper,
+.titleWrapper,
+.monthLineWrapper {
+	pointer-events: none;
+}
+
+.month-area {
+	fill: #dddddd;
+	opacity: 0;
+	pointer-events: none;
+}
+
+.inbetween-month-area{
+	fill: #f5f5f5;
+	opacity: 0;
+	pointer-events: all;
+}
+
+.month-hover {
+	text-anchor: middle;
+	font-family: 'Slabo 27px', serif;
+	/*font-family: 'Vollkorn', serif;*/
+	font-size: 14px;
+	fill: #969696;
+}
+
+/* --- The patterns --- */
+.sun-pattern,
+.nature-pattern,
+.culture-pattern,
+.christmas-pattern {
+	opacity: 0.7;
+}
+.snow-pattern,
+.disney-pattern,
+.olympics-pattern,
+.safari-pattern {
+	opacity: 0.8;
+}
+
+.sun-circle {
+	fill: none;
+	stroke: white;
+	stroke-width: 2px;
+}
+.safari-circle {
+	fill: white;
+}
+
+.pattern-line {
+	fill: none;
+	stroke: white;
+}
+.sun-line {
+	stroke-width: 2px;
+	stroke-linecap: round;
+}
+.nature-line {
+	stroke-width: 2.5px;
+	stroke-linecap: round;
+}
+.culture-line {
+	stroke-width: 2px;
+}
+.snow-line {
+	stroke-linecap: round;
+	stroke-width: 1.5px;
+}
+.christmas-line {
+	stroke-linecap: square;
+	stroke-width: 1.5px;
+}
+
+/* --- The people icons --- */
+.ralph-icon {
+	fill: #B70B6E;
+	stroke: none;
+}
+.father-icon {
+	fill: #1da5d5;
+}
+.mother-line {
+	stroke: #EAA2CE;
+	fill: none;
+	stroke-linecap: round;
+}
+.mother-circle {
+	fill: #EAA2CE;
+}
+.inlaws-icon {
+	fill: none;
+	stroke: #EFA022;
+	stroke-width: 2px;
+}
+.other-icon {
+	fill: #757575;
+}
